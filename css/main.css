@@ -1,0 +1,81 @@
+
+
+@font-face {
+  font-family: 'jetbrains_regular';
+  src: url(../fonts/JetBrainsMono-Regular.ttf);
+}
+
+body {
+
+  background-color: #53575f;
+  color: #B1B2B6;
+}
+
+.table-container {
+  width:60%;
+  margin:1%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table {
+
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: lighter;
+  background-color: #252a34;
+  border-radius: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: 300;
+  font-size: 1em;
+  font-family: 'Proza Libre', sans-serif;
+
+}
+
+th, td {
+  padding: 1em .5em .5em .5em;
+}
+
+tbody, tr, td {
+  padding: 1em 1em 1em 1em;
+  /*width: 1em;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+.tableBody {
+  background-color: #252e37;
+}
+
+.tableBody tr {
+  border-bottom: .5px solid #343740;
+}
+
+.check-mark {
+  font-size: 1.4em;
+}
+
+.boolean {
+  text-align: center;
+}
+
+.description {
+  font-weight: 100;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.el-type-font {
+  font-family: "JetBrains Mono", monospace;
+  color: #df8c33;
+  font-style: italic;
+  font-size: .9em;
+}
+
+.type {
+  text-align: center;
+  font-size: 1.1em;
+
+}
+
