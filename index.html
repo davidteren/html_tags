@@ -1,67 +1,53 @@
-<!-- HTML <!DOCTYPE> Declaration  -->
-<!-- https://www.w3schools.com/tags/tag_doctype.asp/  -->
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="">
+
 <head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Meta Tags & Attributes -->
-  <!-- Inline Character Encoding Statement for HTML   -->
-  <meta charset="UTF-8">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-  <!-- Viewport meta tag to control layout on mobile browsers   -->
-  <!-- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag -->
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 
-  <!-- X-UA-Compatibility Meta Tag and HTTP Response Header    -->
-  <!-- https://docs.microsoft.com/en-us/openspecs/ie_standards/ms-iedoco/380e2488-f5eb-4457-a07a-0cb1b6e4b4b5 -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- Describe the page for SEO  -->
-  <!-- This is ussually the title shown in search engine results. -->
-  <!-- eg: <title>Miami Website Design Company | Digital Agency | FUZE</title> -->
-  <title>Title For Tab</title>
-
-
-  <!-- For search engines -->
-  <meta name="description" content="This is the content description that shows up in the search results">
-  <meta name="keywords" content="between eight and twelve keywords (coma seperated)">
-
-  <!-- To not have search engines scrape and index the site    -->
-  <meta name="robots" content="NOINDEX, NOFOLLOW">
-
-
-  <!--  https://fontpair.co/pairing/proza-libre-and-open-sans-->
-  <link href="https://fonts.googleapis.com/css?family=Proza+Libre&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/html-elements-table.css">
-
+  <meta name="theme-color" content="#fafafa">
 </head>
+
 <body>
-<!--<nav class="nav">-->
-<!--  <ul>-->
-<!--    <li><a href="home.html">Home</a></li>-->
-<!--    <li><a href="about.html">About</a></li>-->
-<!--    <li><a href="services.html">Services</a></li>-->
-<!--    <li><a href="products.html">Products</a></li>-->
-<!--    <li><a href="jobs.html">Jobs</a></li>-->
-<!--    <li><a href="contact.html">Contact</a></li>-->
-<!--  </ul>-->
-<!--</nav>-->
-<div class="table-container">
-  <table>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Block Element</th>
-      <th>Inline Element</th>
-      <th>HTML5 Support</th>
-    </tr>
-    <tbody id="htmlElements" class="tableBody">
-    </tbody>
-  </table>
-</div>
-<script src="javascript/html_element.js"></script>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class="table-container">
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Block Element</th>
+        <th>Inline Element</th>
+        <th>HTML5 Support</th>
+      </tr>
+      <tbody id="htmlElements" class="tableBody">
+      </tbody>
+    </table>
+  </div>
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+
 </html>
