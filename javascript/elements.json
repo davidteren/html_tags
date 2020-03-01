@@ -1,0 +1,990 @@
+[
+  {
+    "name": "!--...--",
+    "description": "Defines a comment",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "!DOCTYPE",
+    "description": "Defines the document type",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "a",
+    "description": "Defines a hyperlink",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "abbr",
+    "description": "Defines an abbreviation or an acronym",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "acronym",
+    "description": "Use abbr instead. Defines an acronym",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": false
+  },
+  {
+    "name": "address",
+    "description": "Defines contact information for the author/owner of a document",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "applet",
+    "description": "Use embed or object instead. Defines an embedded applet",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "area",
+    "description": "Defines an area inside an image-map",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "article",
+    "description": "Defines an article",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "aside",
+    "description": "Defines content aside from the page content",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "audio",
+    "description": "Defines sound content",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "b",
+    "description": "Defines bold text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "base",
+    "description": "Specifies the base URL/target for all relative URLs in a document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "basefont",
+    "description": "Use CSS instead. Specifies a Default color, size, and font for all text in a document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "bdi",
+    "description": "Isolates a part of text that might be formatted in a different direction from other text outside it",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "bdo",
+    "description": "Overrides the current text direction",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "big",
+    "description": "Use CSS instead. Defines big text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": false
+  },
+  {
+    "name": "blockquote",
+    "description": "Defines a section that is quoted from another source",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "body",
+    "description": "Defines the document's body",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "br",
+    "description": "Defines a single line break",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "button",
+    "description": "Defines a clickable button",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "canvas",
+    "description": "Used to draw graphics, on the fly, via scripting (usually JavaScript)",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "caption",
+    "description": "Defines a table caption",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "center",
+    "description": "Use CSS instead. Defines centered text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "cite",
+    "description": "Defines the title of a work",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "code",
+    "description": "Defines a piece of computer code",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "col",
+    "description": "Specifies column properties for each column within a colgroup element",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "colgroup",
+    "description": "Specifies a group of one or more columns in a table for formatting",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "data",
+    "description": "Links the given content with a machine-readable translation",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "datalist",
+    "description": "Specifies a list of pre-Defined options for input controls",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "dd",
+    "description": "Defines a description/value of a term in a description list",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "del",
+    "description": "Defines text that has been deleted from a document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "details",
+    "description": "Defines additional details that the user can view or hide",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "dfn",
+    "description": "Represents the Defining instance of a term",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "dialog",
+    "description": "Defines a dialog box or window",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "dir",
+    "description": "Use ul instead. Defines a directory list",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "div",
+    "description": "Defines a section in a document",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "dl",
+    "description": "Defines a description list",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "dt",
+    "description": "Defines a term/name in a description list",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "em",
+    "description": "Defines emphasized text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "embed",
+    "description": "Defines a container for an external (non-HTML) application",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "fieldset",
+    "description": "Groups related elements in a form",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "figcaption",
+    "description": "Defines a caption for a figure element",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "figure",
+    "description": "Specifies self-contained content",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "font",
+    "description": "Use CSS instead. Defines font, color, and size for text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "footer",
+    "description": "Defines a footer for a document or section",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "form",
+    "description": "Defines an HTML form for user input",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "frame",
+    "description": "Defines a window (a frame) in a frameset",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "frameset",
+    "description": "Defines a set of frames",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "h1",
+    "description": "Defines HTML headings",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "h2",
+    "description": "Defines HTML headings",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "h3",
+    "description": "Defines HTML headings",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "h4",
+    "description": "Defines HTML headings",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "h5",
+    "description": "Defines HTML headings",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "h6",
+    "description": "Defines HTML headings",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "head",
+    "description": "Defines information about the document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "header",
+    "description": "Defines a header for a document or section",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "hr",
+    "description": "Defines a thematic change in the content",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "html",
+    "description": "Defines the root of an HTML document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "i",
+    "description": "Defines a part of text in an alternate voice or mood",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "iframe",
+    "description": "Defines an inline frame",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "img",
+    "description": "Defines an image",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "input",
+    "description": "Defines an input control",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "ins",
+    "description": "Defines a text that has been inserted into a document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "kbd",
+    "description": "Defines keyboard input",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "label",
+    "description": "Defines a label for an input element",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "legend",
+    "description": "Defines a caption for a fieldset element",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "li",
+    "description": "Defines a list item",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "link",
+    "description": "Defines the relationship between a document and an external resource (most used to link to style sheets)",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "main",
+    "description": "Specifies the main content of a document",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "map",
+    "description": "Defines a client-side image-map",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "mark",
+    "description": "Defines marked/highlighted text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "meta",
+    "description": "Defines metadata about an HTML document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "meter",
+    "description": "Defines a scalar measurement within a known range (a gauge)",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "nav",
+    "description": "Defines navigation links",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "noframes",
+    "description": "Defines an alternate content for users that do not support frames",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "noscript",
+    "description": "Defines an alternate content for users that do not support client-side scripts",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "object",
+    "description": "Defines an embedded object",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "ol",
+    "description": "Defines an ordered list",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "optgroup",
+    "description": "Defines a group of related options in a drop-down list",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "option",
+    "description": "Defines an option in a drop-down list",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "output",
+    "description": "Defines the result of a calculation",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "p",
+    "description": "Defines a paragraph",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "param",
+    "description": "Defines a parameter for an object",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "picture",
+    "description": "Defines a container for multiple image resources",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "pre",
+    "description": "Defines preformatted text",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "progress",
+    "description": "Represents the progress of a task",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "q",
+    "description": "Defines a short quotation",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "rp",
+    "description": "Defines what to show in browsers that do not support ruby annotations",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "rt",
+    "description": "Defines an explanation/pronunciation of characters (for East Asian typography)",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "ruby",
+    "description": "Defines a ruby annotation (for East Asian typography)",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "s",
+    "description": "Defines text that is no longer correct",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "samp",
+    "description": "Defines sample output from a computer program",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "script",
+    "description": "Defines a client-side script",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "section",
+    "description": "Defines a section in a document",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "select",
+    "description": "Defines a drop-down list",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "small",
+    "description": "Defines smaller text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "source",
+    "description": "Defines multiple media resources for media elements (video and audio)",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "span",
+    "description": "Defines a section in a document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "strike",
+    "description": "Use del or s instead. Defines strikethrough text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": false
+  },
+  {
+    "name": "strong",
+    "description": "Defines important text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "style",
+    "description": "Defines style information for a document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "sub",
+    "description": "Defines subscripted text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "summary",
+    "description": "Defines a visible heading for a details element",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "sup",
+    "description": "Defines superscripted text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "svg",
+    "description": "Defines a container for SVG graphics",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "table",
+    "description": "Defines a table",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "tbody",
+    "description": "Groups the body content in a table",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "td",
+    "description": "Defines a cell in a table",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "template",
+    "description": "Defines a template",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "textarea",
+    "description": "Defines a multiline input control (text area)",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "tfoot",
+    "description": "Groups the footer content in a table",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "th",
+    "description": "Defines a header cell in a table",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "thead",
+    "description": "Groups the header content in a table",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "time",
+    "description": "Defines a date/time",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "title",
+    "description": "Defines a title for the document",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "tr",
+    "description": "Defines a row in a table",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "track",
+    "description": "Defines text tracks for media elements (video and audio)",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "tt",
+    "description": "Use CSS instead. Defines teletype text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": false
+  },
+  {
+    "name": "u",
+    "description": "Defines text that should be stylistically different from normal text",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "ul",
+    "description": "Defines an unordered list",
+    "type": "element",
+    "block_level_element": true,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "var",
+    "description": "Defines a variable",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": true,
+    "html5_support": true
+  },
+  {
+    "name": "video",
+    "description": "Defines a video or movie",
+    "type": "element",
+    "block_level_element": false,
+    "inline_element": false,
+    "html5_support": true
+  },
+  {
+    "name": "wbr",
+    "description": "Defines a possible line-break"
+  }
+]
