@@ -22,7 +22,7 @@ function loadHTMLElements() {
             }
 
             function nonHTML5(element) {
-                if(element.html5_support != true){
+                if(element.html5_support !== true){
                     return `text-decoration: line-through #df8c33`
                 }
             }
